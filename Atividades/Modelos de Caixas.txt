@@ -1,0 +1,37 @@
+Modelo de Caixas(MC)
+	Aninhamento - Pensa num ninho.
+
+	Altura- Height(Hgt)
+	Largura - Width(Wdt)
+Border(Bdr)
+Padding(Pad) - Acolchoamento, criando uma "camada" dentro da borda
+Margin(Mgn) - Preenchimento, fora
+OutLine(Otl)
+
+	Box-Level(Blvl) - Smpre que a caixa começa ele utiliza uma linha nova
+Div
+h1-h6
+p
+main
+header
+nav
+article
+video
+aside
+footer
+form
+	Inline-Level(Inlvl) - Continua o conteúdo na mesma linha
+Span
+a
+code
+small
+strong
+em
+sup - sub
+label
+button
+input
+select
+
+
+	

@@ -1,0 +1,24 @@
+Cores Primarias(Amarelo, Vermelho e Azul)
+
+Cores Secundárias(Laranja, Violeta e Verde)
+
+Cores Terceárias(Uma cor que está entre uma primária e uma secundaria)
+O nome da cor vem o primeiro a cor primaria e depois uma secúndaria. Ex:Amarelo-Esverdeado
+
+Cores complementares(Cores que constratam entre si)
+
+Cores Análogas(não necessariamente tem um constrate, porém existe uma harmonia)
+
+Cores Análogas Relacionadas(Duas cores bem similares, porém com um mini constrate)
+
+Cores Intercaladas(Escolhe uma cor e pula a próxima)
+
+Cores Tríadicas(Escolhe uma e pula mais três)
+
+Cores em Quadrado(Escolhe uma e pula quatro cores, formando um quadrado)
+
+Cores Tetrádicas(Escolhe duas cores e suas cores de constrate, formando um retângulo)
+
+Monocromia(Trabalhar com uma cor só)
+
+

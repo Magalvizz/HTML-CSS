@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foda links</title>
+    <style>
+        /*
+            Pseudo elementos são representados por 2 vezes ::
+            Sinal de > é uma "children" 
+        */
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: #8b0000;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #ed463b;
+        }
+        a:active{
+            color: darkblue;
+        }
+        a::before{
+            content: '✧';
+        }
+        a::after{
+            content: '✧';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/magalvizz/" target="_blank" rel="external">Meu instagram</a></li>
+        <li><a href="https://x.com/Magalvizz" target="_blank" rel="external">Meu Twitter</a></li>
+        <li><a href="https://steamcommunity.com/profiles/76561199673679133/" target="_blank" rel="external">Minha steam</a></li>
+    </ul>
+</body>
+</html>

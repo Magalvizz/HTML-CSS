@@ -1,0 +1,11 @@
+Dominio - Nome único
+Pago Anualmente
+
+Hospedagem - Local do site
+Espaço de armazenar seus arquivos
+Pago mensalmente
+
+URL - Uniform Resource Locator
+TLD - Top Level Domain
+GTLD - Generic Top Level Domain
+CCTLD - Country Code

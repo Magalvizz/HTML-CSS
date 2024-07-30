@@ -1,0 +1,39 @@
+HTML - HyperTextMarkupLanguage
+Linguagem focada em conteúdo, pode ser texto, imagem, vídeo, listas e etc...
+
+<h1>Exemplo de Titulo</h1> <- TAGS
+<p> Paragrafo </p>
+<img src="foto.png" alt="Exemplo">
+                    /         /
+                (Parâmetro) (Valor)
+CSS - CascadingStyleSheets
+Atrativos Visuais
+
+      (Declaração)OBS:Toda declaração tem que ter ;
+h1{    / 
+   font-family: arial
+   font-size:20pt;
+   color:blue; -> (Valor)
+     /
+  (Propriedade)
+}
+
+Estrutura Basica de documento HTML.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+      content="width=device-width,
+      initial-scale=1.0">
+      <title>Dor nas costas</title>
+  </head>
+   <body>
+       <h1>Odeio Azeitonas</h1>
+
+   </body>
+</html>
+
+JS - Java Script
+Responsavel por interações do site.

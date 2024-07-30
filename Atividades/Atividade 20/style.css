@@ -1,0 +1,35 @@
+@charset "UTF-8"; 
+/*      Em HTML id = #.     (Pode apenas uma id por elemento)
+        em HTML Class é = . (Podem várias class em um unico elemento)
+*/
+
+body {
+    background-color: #CA6FE8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #A55BBE;
+    font-family: sans-serif;
+}
+
+#Principal {
+     text-align: center;
+     background-color: #6A3A7A;
+     color: white;
+}
+
+h2 {
+    color: #874B9C;
+    font-family: sans-serif;
+}
+.basico{
+    color: #D948C8;
+}
+.basicomelhor{
+    color: #C26BE0;
+    text-align: right;
+}
+.memacoisa{
+    color: #E14393;
+}

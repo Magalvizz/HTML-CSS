@@ -1,0 +1,5 @@
+Serifa - Cria uma linha imaginaria, onde facilita uma leitura
+
+Para sites de preferencias a fontes não serifadas
+
+monoespaçadas - glifos com o corpo do mesmo tamanho (lateral)

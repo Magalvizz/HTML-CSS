@@ -1,0 +1,10 @@
+Front-End
+Desenvolvedor que mexe mais com visual do Site. Técnologias Client-Side.
+HTML, CSS, JS.
+
+Back-End
+Desenvolvedor que mexe mais com sistemas. Técnologias Server-Side.
+PHP, JS, CSHARP, PHYTON, RUBY, JAVA.
+
+Full Stack
+O cara que se acha foda e quer fazer os dois.

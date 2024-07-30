@@ -1,0 +1,4 @@
+PNG - Portable Network Graphics.
+Capacidade de configurar opacidade de cada pixel, podendo deixa-lo transparente.
+JPEG - Joint Photographics Experts Group. 
+Utilizado para gerar imagens com tamanho extremamente reduzido.
