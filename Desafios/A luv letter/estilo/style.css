@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Playwrite+FR+Moderne:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+
+
+:root{
+    --fonte1 : 'Courier New', Courier, monospace;
+    --fonte2 : "Playwrite FR Moderne", cursive;
+    --fonte3 : "Playwrite AR", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 3vw;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 3em;
+    padding-left: 35px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    box-shadow: inset 4px 4px 8px 0px black;
+}
+
+section.imagem{
+    background-color: azure;
+    color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem#img01{
+    background-image: url(../imagens/sunset.jpg);
+    background-position: center center;
+}
+
+section.imagem#img02{
+    background-image: url(../imagens/moon.jpg);
+    background-position: center center;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
