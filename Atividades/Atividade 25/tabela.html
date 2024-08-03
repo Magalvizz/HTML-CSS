@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinhas</title>
+    <style>
+        table{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 1000px;
+        }
+        thead, tfoot{
+            background-color: #353FE0;
+            border: 2px solid black;
+            color: #ffffff;
+        }
+        th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        td{
+            background-color: #2C35B6;
+            padding: 10px;
+            border: 2px solid black;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mexendo com tabelões</h1>
+    <!--
+    Hierarquia Tabelas Grandes
+        Table
+            Thead
+                Tr,Td or Th
+            Tbody
+                Tr,Td or Th
+            Tfoot
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Região</th>
+                <th>População</th>
+                <th>Mudança</th>
+                <th>Variação Bruta</th>
+                <th>% da pop. total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Região Sudeste</td>
+                <td>84 847 187</td>
+                <td>+5,57%</td>
+                <td>+4.482.777</td>
+                <td>41,80%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Região Nordeste</td>
+                <td>54 644 582</td>
+                <td>+3,00%</td>
+                <td>+1.562.632</td>
+                <td>26,90%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Região Sul</td>
+                <td>29 933 315</td>
+                <td>+9,29%</td>
+                <td>+2.546.424</td>
+                <td>14,70%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Região Norte</td>
+                <td>17 349 619</td>
+                <td>+9,63%</td>
+                <td>+1.485.165</td>
+                <td>8,50%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Região Centro-Oeste</td>
+                <td>16 287 809</td>
+                <td>+15,86%</td>
+                <td>+2.229.715%</td>
+                <td>8,0%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Posição</th>
+                <th>Região</th>
+                <th>População</th>
+                <th>Variação</th>
+                <th>Crescimento</th>
+                <th>País Comparável</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><strong>Brasil</strong></td>
+                <td>203 062 512</td>
+                <td>+12.329.818	</td>
+                <td>+6,45%</td>
+                <td><strong>Nigéria</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
