@@ -47,71 +47,77 @@
             background-color: rgba(122, 48, 182, 0.644);
             color: white;
         }
+        div#container{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <caption>Notas dos Alunos</caption>
-        <thead>
-            <tr>
-                <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2" scope="col">Disciplina</th>
-                <th colspan="2" scope="col">Notas</th>
-                <th rowspan="2" scope="col">Média</th>
-            </tr>
-            <tr>
-                <th scope="col">Nota 1</th>
-                <th scope="col">Nota 2</th>
-            </tr>
-            <tbody>
+    <div id="container">
+        <table>
+            <caption>Notas dos Alunos</caption>
+            <thead>
                 <tr>
-                    <th rowspan="4" scope="rowgroup">Exatas</th>
-                    <td class="dis">Matemática</td>
-                    <td class="num">7</td>
-                    <td class="num">9</td>
-                    <td class="num">8</td>
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplina</th>
+                    <th colspan="2" scope="col">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
                 </tr>
                 <tr>
-                    <td class="dis">Fisica</td>
-                    <td class="num">8</td>
-                    <td class="num">8</td>
-                    <td class="num">8</td>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
                 </tr>
-                <tr>
-                    <td class="dis">Química</td>
-                    <td class="num">10</td>
-                    <td class="num">9</td>
-                    <td class="num">9.5</td>
-                </tr>
-                <tr>
-                    <td class="dis">Biologia</td>
-                    <td class="num">8</td>
-                    <td class="num">10</td>
-                    <td class="num">9</td>
-                </tr>
-                <tr>
-                    <th colspan="4" scope="row">Média de Exatas</th>
-                    <th class="num" scope="row">8.6</th>
-                </tr>
-                <tr>
-                    <th rowspan="2" id="Area" scope="rowgroup">Humanas</th>
-                    <td class="dis2">História</td>
-                    <td class="num2">7</td>
-                    <td class="num2">6</td>
-                    <td class="num2">6.5</td>
-                </tr>
-                <tr>
-                    <td class="dis2">Geografia</td>
-                    <td class="num2">8</td>
-                    <td class="num2">6</td>
-                    <td class="num2">7</td>
-                </tr>
-                <tr>
-                    <th colspan="4" class="media" scope="row">Média de Humanas</th>
-                    <th class="media" scope="row">6,75</th>
-                </tr>
-            </tbody>
-        </thead>
-    </table>
+                <tbody>
+                    <tr>
+                        <th rowspan="4" scope="rowgroup">Exatas</th>
+                        <td class="dis">Matemática</td>
+                        <td class="num">7</td>
+                        <td class="num">9</td>
+                        <td class="num">8</td>
+                    </tr>
+                    <tr>
+                        <td class="dis">Fisica</td>
+                        <td class="num">8</td>
+                        <td class="num">8</td>
+                        <td class="num">8</td>
+                    </tr>
+                    <tr>
+                        <td class="dis">Química</td>
+                        <td class="num">10</td>
+                        <td class="num">9</td>
+                        <td class="num">9.5</td>
+                    </tr>
+                    <tr>
+                        <td class="dis">Biologia</td>
+                        <td class="num">8</td>
+                        <td class="num">10</td>
+                        <td class="num">9</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4" scope="row">Média de Exatas</th>
+                        <th class="num" scope="row">8.6</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" id="Area" scope="rowgroup">Humanas</th>
+                        <td class="dis2">História</td>
+                        <td class="num2">7</td>
+                        <td class="num2">6</td>
+                        <td class="num2">6.5</td>
+                    </tr>
+                    <tr>
+                        <td class="dis2">Geografia</td>
+                        <td class="num2">8</td>
+                        <td class="num2">6</td>
+                        <td class="num2">7</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4" class="media" scope="row">Média de Humanas</th>
+                        <th class="media" scope="row">6,75</th>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <!--Colgroup serve para personalizar uma coluna inteira-->
 </body>
 </html>
