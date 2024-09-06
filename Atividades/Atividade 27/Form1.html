@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body>
+    <h1>meu forms</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="Nome" id="inome">
+        </p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="isobrenome">
+            </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+        <!--GET deve ser usado quando os dados não são sensíveis, como senhas, dados de cartão e etc. Quando você quer que a URL seja compartilhavel, o Get não ultrapassa 3000 Bytes (Mais ou menos 3000 caracteres).-->
+        <!--POST deve ser usado quando os dados são sensíveis, suporta mais de 3000 bytes-->
+        <!--Aprender um pouco mais de HTTPS-->
+    </form>
+</body>
+</html>
