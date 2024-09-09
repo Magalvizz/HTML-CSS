@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form6</title>
+</head>
+<body>
+    <h1>Forms again</h1>
+    <form action="cadastro.php" method="get"> 
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#399354">
+        </p>
+        <p>
+            <label for="inivel">Nivel de Loucura</label>
+            <input type="range" name="satisfação" id="inivel" min="1" max="50" value="10">
+        </p>
+        <p>
+            <label for="filé">Filé</label>
+            <input type="file" name="file" id="filé">
+        </p>
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </p>
+        <!--Sempre que usar o file, tem que utilizar o método POST-->
+    </form>
+</body>
+</html>

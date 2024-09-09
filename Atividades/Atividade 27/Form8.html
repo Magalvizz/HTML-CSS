@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form8</title>
+</head>
+<body>
+    <h1>sosu</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="in1">Número1: </label>
+            <input type="number" name="Num1" id="in1" min="1" max="25" required oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Número2: </label>
+            <input type="number" name="Num2" id="in2" min="1" max="25" required oninput="soma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma: </label>
+            <output id="soma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="send">
+            <input type="reset" value="reset">
+        </p>
+    </form>
+</body>
+</html>
