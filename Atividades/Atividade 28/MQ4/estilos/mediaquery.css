@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@media print{
+    body{
+        background-image: url(../img/Galaxy3.jpeg);
+     }
+     main{
+        border: 3px solid black;
+     }
+     main h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+     }
+    }
+    img#phone{  
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#printer{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../img/Galaxy2.jpeg);
+    }
+}
+img#phone{  
+    display: none;
+}
+img#tablet{
+    display: block;
+}
+img#printer{
+    display: none;
+}
+img#tv{
+    display: none;
+}
+img#pc{
+    display: none;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+     body{
+        background-image: url(../img/Galaxy3.jpeg);
+     }
+    }
+    img#phone{  
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#printer{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../img/Galaxy4.jpeg);
+     }
+     main{
+        width: 700px;
+     }
+    }
+    img#phone{  
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#printer{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
